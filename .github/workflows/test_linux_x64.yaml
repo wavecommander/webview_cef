@@ -1,5 +1,6 @@
 name: Test if the example app still builds on Linux x64
 on:
+  workflow_dispatch:
   push:
     branches: ["main"]
     paths:
