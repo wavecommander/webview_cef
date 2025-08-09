@@ -21,7 +21,7 @@ if [ ! -f "$file" ]; then
     file="$parent_dir_file" # Use the new path if it exists
   else
     # If neither path is valid, exit
-    echo "File not found at '$original_path' or in its parent directory."
+    echo "File not found at '$file' or in its parent directory."
     exit 1
   fi
 fi
